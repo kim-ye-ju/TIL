@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @font-face {
+    font-family: 'LOTTERIADDAG';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    div {
+      padding: 10px;
+    }
+    
+    h1 {
+      font-family: 'LOTTERIADDAG', sans-serif;
+      font-size: 65px;
+      color: blueviolet;
+    }
+
+    h2 {
+      font-family: 'LOTTERIADDAG', sans-serif;
+      font-size: 20px;
+    }
+
+    input {
+      padding: 10px;
+    }
+
+    input[type='submit'] {
+      padding: 10px;
+      background-color: black;
+      color: #ffff;
+      font-weight: bold;
+    }
+
+    .login {
+      border-color: #ffff;
+    }
+
+  </style>
+</head>
+<body>
+  <div>
+  <h1>삐삐의 사생활을 보고싶다면 로그인 하시오.<br> *주의사항* 삐삐가 너무 귀여워 미쳐버릴 수 있음</h1>
+  <img src="삐삐.jpeg" alt="삐삐" draggable="false" width="180" height="240">
+  </div>
+  <form>
+    <div>
+      <h2>아이디</h2>
+      <input type="text" placeholder="Username">
+    </div>
+    <div>
+      <h2>비밀번호</h2>
+      <input type="password" placeholder="Password">
+    </div>
+    <div>
+      <input class="login" type="submit" value="로그인"></input>
+    </div>
+  </form>
+</body>
+</html>
